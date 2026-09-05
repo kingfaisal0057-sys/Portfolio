@@ -4270,11 +4270,3 @@ header {
         display: flex;
         justify-content: center;
     }
-
-    .hero-image img {
-        width: 100%;
-        max-width: 330px;
-        height: auto;
-        display: block;
-    }
-}
