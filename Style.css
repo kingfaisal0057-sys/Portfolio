@@ -3948,3 +3948,266 @@ header {
     object-fit: contain;
     display: block;
 }
+/* =========================
+   MOBILE RESPONSIVE FIX
+========================= */
+
+@media (max-width: 768px) {
+
+    /* ---------- GENERAL ---------- */
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    section {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    /* ---------- NAVBAR ---------- */
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 70px 25px;
+        min-height: auto;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+        line-height: 1.15;
+    }
+
+    .hero-content h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .hero-content .description {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    /* ---------- ABOUT PREVIEW ---------- */
+
+    .about-preview {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 60px 25px;
+    }
+
+    .about-image,
+    .about-content {
+        width: 100%;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content h2 {
+        font-size: 30px;
+        line-height: 1.25;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+
+    /* ---------- SECTION HEADING ---------- */
+
+    .section-heading {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 25px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .section-heading h2 {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* ---------- SKILLS PREVIEW ---------- */
+
+    .skills-preview {
+        padding: 60px 0;
+    }
+
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .skill-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .skills-button {
+        display: block;
+        width: fit-content;
+        margin: 30px auto 0;
+    }
+
+
+    /* ---------- PROJECTS ---------- */
+
+    .projects-preview {
+        padding: 60px 0;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    .project-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+    /* ---------- SERVICES ---------- */
+
+    .services-preview {
+        padding: 60px 0;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    .service-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+
+    /* ---------- CTA ---------- */
+
+    .cta {
+        padding: 70px 25px;
+        text-align: center;
+    }
+
+    .cta-content h2 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .cta-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .footer-box {
+        width: 100%;
+    }
+
+    .footer-box ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .copyright {
+        text-align: center;
+        padding: 20px;
+    }
+}
