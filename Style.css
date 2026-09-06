@@ -4270,7 +4270,7 @@ header {
         display: flex;
         justify-content: center;
     }
-    .hero-area {
+.hero-area {
     position: relative;
     background-image: url("muzammil(1).png");
     background-size: cover;
@@ -4278,10 +4278,10 @@ header {
     background-repeat: no-repeat;
     overflow: hidden;
 }
- .hero-area {
+.hero-area {
     position: relative;
     min-height: 100vh;
-    background-image: url("muzammil(1).png";
+    background-image: url("muzammil(1).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
