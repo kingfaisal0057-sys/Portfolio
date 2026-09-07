@@ -4,196 +4,148 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* Body */
 body {
     font-family: Arial, sans-serif;
     background-color: #111111;
     color: white;
 }
-
 /* Navbar */
 .navbar {
     width: 100%;
     height: 80px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 0 8%;
 }
-
 /* Logo */
 .logo {
     font-size: 24px;
     font-weight: bold;
 }
-
 /* Navigation Links */
 .nav-links {
     display: flex;
     list-style: none;
     gap: 30px;
 }
-
 /* Links */
 .nav-links a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
-
 /* Hover Effect */
 .nav-links a:hover {
     color: #00bcd4;
 }
-```
-```css
 /* Hero Section */
 .hero {
     min-height: calc(100vh - 80px);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 60px 8%;
     gap: 50px;
 }
-
 /* Hero Content */
 .hero-content {
     max-width: 600px;
 }
-
 .intro {
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 .hero-content h1 {
     font-size: 60px;
     margin-bottom: 10px;
 }
-
 .hero-content h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
-
 .description {
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 30px;
     color: white;
 }
-
 /* Buttons */
 .hero-buttons {
     display: flex;
     gap: 15px;
 }
-
 .btn {
     display: inline-block;
-
     padding: 13px 25px;
-
     background-color: #00bcd4;
     color: white;
-
     text-decoration: none;
-
     border-radius: 5px;
-
     font-size: 16px;
 }
-
 .btn:hover {
-    opacity: 0.8;
+   opacity: 0.8;
 }
-
 .btn-outline {
     background-color: transparent;
     border: 1px solid #00bcd4;
 }
-
 /* Hero Image */
 .hero-image {
     width: 350px;
     height: 350px;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .hero-image img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     border-radius: 50%;
 }
-```
-```css id="q3k8nw"
 /* About Preview */
 .about-preview {
     min-height: 500px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     gap: 60px;
-
     padding: 80px 8%;
 }
-
 /* About Image */
 .about-image {
     width: 400px;
     height: 400px;
 }
-
 .about-image img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     border-radius: 15px;
-}
-
 /* About Content */
 .about-content {
     max-width: 600px;
 }
-
 .section-subtitle {
     color: #00bcd4;
     font-size: 18px;
     margin-bottom: 10px;
 }
-
 .about-content h2 {
     font-size: 38px;
     margin-bottom: 20px;
 }
-
 .about-content p {
     font-size: 17px;
     line-height: 1.7;
     margin-bottom: 15px;
 }
-
 .about-content .btn {
     margin-top: 15px;
 }
-```
-```css
 /* Skills Preview */
 .skills-preview {
     padding: 80px 8%;
@@ -4222,6 +4174,28 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+}
+    .hero-area {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("muzammil(1).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero-area::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 0;
+}
+
+.hero-area > * {
+    position: relative;
+    z-index: 1;
 }
 @media (max-width: 768px) {
 
