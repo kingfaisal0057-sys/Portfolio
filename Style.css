@@ -4264,18 +4264,12 @@ header {
         justify-content: center;
     }
 
-    .hero-image {
-        width: 100%;
-        margin-top: 60px;
-        display: flex;
-        justify-content: center;
-    }
-/* ================= HERO BACKGROUND ================= */
+   /* ================= HERO BACKGROUND ================= */
 
 .hero-area {
     position: relative;
     min-height: 100vh;
-    background-image: url("/muzammil(1).png");
+    background-image: url("muzammil(1).png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
