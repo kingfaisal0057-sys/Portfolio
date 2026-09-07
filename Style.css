@@ -4211,6 +4211,17 @@ header {
         padding: 20px;
     }
 }
+   /* ================= HERO BACKGROUND ================= */
+
+.hero-area {
+    position: relative;
+    min-height: 100vh;
+    background-image: url("muzammil(1).png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
 @media (max-width: 768px) {
 
     /* HERO MOBILE FIX */
@@ -4263,15 +4274,3 @@ header {
         align-items: center;
         justify-content: center;
     }
-
-   /* ================= HERO BACKGROUND ================= */
-
-.hero-area {
-    position: relative;
-    min-height: 100vh;
-    background-image: url("muzammil(1).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
