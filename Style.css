@@ -4117,60 +4117,6 @@ header {
         padding: 20px;
     }
 }
-/* ================= PROJECT CARDS FIX ================= */
-
-.projects-container {
-    max-width: 1180px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    align-items: stretch;
-}
-
-.project-card {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    background: #181818;
-    border: 1px solid #2d2d2d;
-    border-radius: 16px;
-}
-
-.project-image {
-    width: 100%;
-    height: 240px;
-    flex-shrink: 0;
-    overflow: hidden;
-}
-
-.project-image img {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-}
-
-.project-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-}
-
-.project-content h3 {
-    margin-bottom: 12px;
-}
-
-.project-content p {
-    margin-bottom: 18px;
-}
-
-.project-link {
-    margin-top: auto;
-}
    /* ================= HERO BACKGROUND ================= */
 
 .hero-area {
@@ -4234,3 +4180,58 @@ header {
         align-items: center;
         justify-content: center;
     }
+}
+/* ================= PROJECTS PAGE CARDS FIX ================= */
+
+.projects-section .projects-container {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+}
+
+.projects-section .project-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: #181818;
+    border: 1px solid #2d2d2d;
+    border-radius: 16px;
+}
+
+.projects-section .project-image {
+    width: 100%;
+    height: 240px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.projects-section .project-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.projects-section .project-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.projects-section .project-content h3 {
+    margin-bottom: 12px;
+}
+
+.projects-section .project-content p {
+    margin-bottom: 18px;
+}
+
+.projects-section .project-link {
+    margin-top: auto;
+}
