@@ -217,8 +217,6 @@ body {
 .skills-button {
     margin-top: 10px;
 }
-```
-```css
 /* Projects Preview */
 .projects-preview {
     padding: 80px 8%;
@@ -228,96 +226,65 @@ body {
 /* Projects Container */
 .projects-container {
     max-width: 1100px;
-
     margin: 0 auto 40px;
-
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
     gap: 30px;
 }
-
 /* Project Card */
 .project-card {
     overflow: hidden;
-
     background-color: #181818;
-
     border: 1px solid #333;
-
     border-radius: 12px;
-
     text-align: left;
-
     transition: 0.3s;
 }
-
 .project-card:hover {
     transform: translateY(-8px);
-
     border-color: #00bcd4;
 }
-
 /* Project Image */
 .project-image {
     width: 100%;
     height: 230px;
-
     overflow: hidden;
 }
-
 .project-image img {
     width: 100%;
     height: 100%;
-
     object-fit: cover;
-
     transition: 0.3s;
 }
-
 .project-card:hover .project-image img {
     transform: scale(1.05);
 }
-
 /* Project Content */
 .project-content {
     padding: 25px;
 }
-
 .project-content h3 {
     font-size: 24px;
-
     margin-bottom: 12px;
 }
-
 .project-content p {
     color: #cccccc;
-
     line-height: 1.6;
-
     margin-bottom: 18px;
 }
-
 /* Project Link */
 .project-link {
     color: #00bcd4;
-
     text-decoration: none;
-
     font-weight: bold;
 }
-
 .project-link:hover {
     text-decoration: underline;
 }
-
 /* Projects Button */
 .projects-button {
     margin-top: 10px;
 }
-```
-```css
 /* Services Preview */
 .services-preview {
     padding: 80px 8%;
