@@ -4175,28 +4175,6 @@ header {
     background-repeat: no-repeat;
     overflow: hidden;
 }
-    .hero-area {
-    position: relative;
-    min-height: 100vh;
-    background-image: url("muzammil(1).png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-}
-
-.hero-area::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.45);
-    z-index: 0;
-}
-
-.hero-area > * {
-    position: relative;
-    z-index: 1;
-}
 @media (max-width: 768px) {
 
     /* HERO MOBILE FIX */
