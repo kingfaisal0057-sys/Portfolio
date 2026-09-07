@@ -4181,3 +4181,265 @@ header {
         justify-content: center;
     }
 }
+/* =========================================
+   SERVICES - WORK PROCESS
+========================================= */
+
+.process-section {
+    padding: 90px 8% 100px;
+    text-align: center;
+}
+
+.process-section .section-heading {
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.process-section .section-heading h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.process-section .section-heading > p:last-child {
+    color: #cccccc;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* Process Cards */
+
+.process-container {
+    max-width: 1180px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.process-card {
+    position: relative;
+
+    min-height: 250px;
+    padding: 30px 22px;
+
+    background-color: #181818;
+    border: 1px solid #333;
+    border-radius: 14px;
+
+    text-align: left;
+
+    transition: 0.3s ease;
+
+    box-sizing: border-box;
+}
+
+.process-card:hover {
+    transform: translateY(-8px);
+    border-color: #00bcd4;
+    box-shadow: 0 15px 35px rgba(0, 188, 212, 0.10);
+}
+
+
+/* Number */
+
+.process-card > span {
+    display: block;
+
+    margin-bottom: 25px;
+
+    color: #00bcd4;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+/* Heading */
+
+.process-card h3 {
+    margin: 0 0 14px;
+
+    color: #ffffff;
+
+    font-size: 21px;
+}
+
+
+/* Description */
+
+.process-card p {
+    margin: 0;
+
+    color: #aaaaaa;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* =========================================
+   SERVICES CTA
+========================================= */
+
+.services-cta {
+    padding: 100px 8%;
+
+    text-align: center;
+}
+
+.services-cta-content {
+    position: relative;
+
+    max-width: 850px;
+
+    margin: 0 auto;
+
+    padding: 65px 40px;
+
+    background-color: #181818;
+
+    border: 1px solid #333;
+    border-radius: 18px;
+
+    overflow: hidden;
+}
+
+.services-cta-content::before {
+    content: "";
+
+    position: absolute;
+
+    width: 260px;
+    height: 260px;
+
+    top: -150px;
+    right: -100px;
+
+    background: rgba(0, 188, 212, 0.10);
+
+    border-radius: 50%;
+
+    filter: blur(35px);
+
+    pointer-events: none;
+}
+
+.services-cta-content .section-subtitle {
+    position: relative;
+    z-index: 1;
+
+    margin-bottom: 12px;
+}
+
+.services-cta-content h2 {
+    position: relative;
+    z-index: 1;
+
+    margin: 0 0 20px;
+
+    color: #ffffff;
+
+    font-size: 40px;
+    line-height: 1.25;
+}
+
+.services-cta-content > p:not(.section-subtitle) {
+    position: relative;
+    z-index: 1;
+
+    max-width: 680px;
+
+    margin: 0 auto 30px;
+
+    color: #cccccc;
+
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.services-cta-content .btn {
+    position: relative;
+    z-index: 1;
+
+    margin-top: 5px;
+}
+
+
+/* =========================================
+   PROCESS + CTA RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+
+    .process-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .process-section {
+        padding: 70px 5%;
+    }
+
+    .process-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .process-card {
+        min-height: 240px;
+        padding: 25px 20px;
+    }
+
+    .process-card h3 {
+        font-size: 19px;
+    }
+
+    .services-cta {
+        padding: 70px 5%;
+    }
+
+    .services-cta-content {
+        padding: 50px 25px;
+    }
+
+    .services-cta-content h2 {
+        font-size: 32px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .process-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .process-card {
+        min-height: auto;
+        padding: 28px 22px;
+    }
+
+    .services-cta-content {
+        padding: 45px 20px;
+    }
+
+    .services-cta-content h2 {
+        font-size: 28px;
+    }
+
+    .services-cta-content > p:not(.section-subtitle) {
+        font-size: 15px;
+    }
+
+}
